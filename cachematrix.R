@@ -4,7 +4,6 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
-  makeCacheMatrix <- function(x = matrix()) {
         ## This function creates a special matrix that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {## This defines the argument with the default mode of the matrix
 inv<-NULL ## This will initialize the inv as NULL and hold the value of the matrix inverse
@@ -17,10 +16,8 @@ inv<-NULL ## This will initialize the inv as NULL and hold the value of the matr
         getinverse<-function()inv ## This calls the value of the inv
         list(set=set, get=get, setinverse=setinverse, getinverse=getinverse) ## This is needed to reference
 
-
-
 ## Write a short comment describing this function
-
+  
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getmean()
